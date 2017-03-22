@@ -111,7 +111,7 @@
 	
 	function gen_data() {
 	
-		$data = get_data("https://graph.facebook.com/v2.7/101578056559737/feed?access_token=1746486195602888|KGwQ-a1vj5lzIF8ExtV9mZejiFg");
+		$data = get_data("https://graph.facebook.com/v2.7/0000000000000000/feed?access_token=0000000000000000000|KGwQ-fc*&^%rfvbHG#$dxc");
 		$result = json_decode($data); 
 		$latest_post =  $result->data[0];		
 		$latest_post_text = $latest_post->message;
